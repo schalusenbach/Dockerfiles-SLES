@@ -1,4 +1,4 @@
-FROM laszis64.ez.edeka.net:5000/sles12sp3
+FROM laszis64.ez.edeka.net/sles12sp3:latest
 MAINTAINER seppo"
 ARG repo
 ARG cert
