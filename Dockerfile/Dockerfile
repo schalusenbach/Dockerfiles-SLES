@@ -1,4 +1,4 @@
-FROM laszis64.ez.edeka.net/sles12sp3:latest
+FROM registry.suse.com/suse/sles12sp3:latest
 MAINTAINER seppo"
 ARG repo
 ARG cert
