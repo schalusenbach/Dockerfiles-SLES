@@ -1,5 +1,5 @@
 FROM registry.suse.com/suse/sles12sp3:latest
-MAINTAINER seppo"
+LABEL maintainer="seppo"
 ARG repo
 ARG cert
 RUN echo "$cert" > /etc/pki/trust/anchors/RHN-ORG-TRUSTED-SSL-CERT.pem
@@ -12,5 +12,5 @@ ADD add_packages.sh /root/add_packages.sh
 RUN /root/add_packages.sh
 
 # After building remove the repository path from image
-RUN rm -f /etc/zypp/repos.d/susemanager:dockerbuild.repo
+#RUN rm -f /etc/zypp/repos.d/susemanager:dockerbuild.repo
 
