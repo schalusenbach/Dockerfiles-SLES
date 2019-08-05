@@ -1,4 +1,4 @@
-FROM registry.suse.com/suse/sles12sp3:latest
+FROM registry.suse.com/suse/sles12sp4:latest
 LABEL maintainer="seppo"
 ARG repo
 ARG cert
