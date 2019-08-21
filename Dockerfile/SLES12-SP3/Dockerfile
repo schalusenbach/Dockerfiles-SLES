@@ -1,6 +1,6 @@
 # VERSION               1.0.0
 
-FROM registry.suse.com/suse/sles12sp4:latest
+FROM registry.suse.com/suse/sles12sp3:latest
 MAINTAINER Jeff and Don
 
 ARG repo
