@@ -1,4 +1,4 @@
- VERSION               1.0.0
+### VERSION               1.0.0
 
 FROM registry.suse.com/suse/sles12sp3:latest
 MAINTAINER Seppo
